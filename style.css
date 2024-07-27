@@ -1,0 +1,39 @@
+body {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    align-self: flex-start;
+}
+
+input {
+    font-size: 2em;
+    margin: 10px 1px 0;
+}
+
+.body {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 16px;
+}
+
+.numberInput {
+    margin: 20px;
+    width: 600px;
+    border-radius: 64px;
+    padding: 8px 24px;
+}
